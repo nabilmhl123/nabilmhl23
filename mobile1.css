@@ -1,39 +1,79 @@
 
-@media(max-width:500px) {
-    .container1 img {
-        align-items: center;
+@media(max-width:768px) {
+
+    body{
+        width: 375px;
+        justify-content: center;
+        padding: 0 50px;
     }
-    .container1 {
+
+    /* .container1 img {
+        align-items: center;
+    } */
+
+    /* .container1 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 20px;
-        padding: 20px;
         flex-direction: column;
-        margin-right: 20px;
-    }
+        width: 100%;
+    } */
+
     h1{
         font-size: 20px;
         padding-bottom: 5px;
         align-items: center;
     }
-}
 
-
-@media(max-width:500px) {
-    .onglets1 {
+    .container1 {
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
         align-items: center;
-        margin-top: 10px;
-        margin: 20px;
-        padding: 20px;
-        margin-right: 20px;
-        
+        width: 100%; 
+        height: 79px;
+        margin-bottom: 30px;
     }
-}
+    
+    .container1 img {
+        /* display: flex;  */
+        align-content: center;
+        align-items: center;
+        width: 61.1px;
+        height: 19px;  
+        padding: 30px 50px 30px 50px;
+        gap: 10px; 
+    }
+    
+    
 
-@media(max-width:500px) {
+    .nav_bar {
+        display: flex;
+        width: 100%; 
+        height: 35px;
+        
+        /* gap: 68px;   */
+        /* padding: 0px 50px 0px 50px; */
+    }
+    
+    .nav_link {
+        display: flex;
+        justify-content: right;
+        width: 100%;  
+        height: 39px;
+    }
+    
+    .nav_link a {
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .nav_link a:hover {
+        border-top: 2px solid #0065FC;
+    }
+
     .sous-titres {
         display: inline;
         justify-content: space-between;
@@ -42,151 +82,129 @@
         padding: 10px;
         margin-right: 20px;
     }
-}
 
-@media(max-width:500px) {
     .search-container{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: center;
-            align-items: center;
-            align-content: stretch;
-}
+                display: flex;
+                align-items: center;
+                width: 100%;
+                /* flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                align-items: center;
+                align-content: center; */
+                margin-bottom: 20px;
+    }
 
-#envoyer{
-    display: none;
-}
-
-
-.icon2{
-        background-color: #0065FC;
-    /* Couleur de fond du bouton */
-    color: white;
-    /* Couleur du texte du bouton */
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 12px;
-    border: none;
-    max-width: 500px;
-}
-}
-
-@media(min-width:500px){
-    .icon2{
+    #envoyer{
         display: none;
+    }
+
+
+    .icon2{
+            background-color: #0065FC;
+        /* Couleur de fond du bouton */
+        color: white;
+        /* Couleur du texte du bouton */
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+        max-width: 500px;
+    }
+
+    .icon2{
+        /* display: none; */
 
     }
     .icon1{
-        display: none;
+        /* display: none; */
     }
-}
 
 
-@media(max-width:500px){
+
+    .filter-bar{
+        margin: 10px;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 150px;
+    }
+
+
     .filtres{
-        margin: 10px;
-        padding: 10px;
-            display: flex;
-            flex-direction: row;
+        width: 100%;
+        /* margin: 10px;
+        padding: 10px; */
+            
+            /* flex-direction: column; */
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             align-content: center;
-}
-}
-@media(max-width:500px){
-    .filtres button{
-        width: 40%;
-        margin: 10px;
-        padding: 10px;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            align-content: center;
-}
-.logements .button-i{
+    }
+
+    .logements .button-i{
     height: 20px;
     
     }
-}
 
 
-
-@media(max-width:500px){
-        .hebergements-and-populaires{
-            
+    .hebergements-and-populaires{  
 	flex-direction: column-reverse;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-}
-.populaires{
-    width: 100%;
-    margin-bottom: 50px;
-}
+    }
 
-.populaires-cards{
-    flex-direction: column;
-}
+    .populaires{
+        width: 100%;
+        margin-bottom: 50px;
+    }
 
+    .populaires-cards{
+        flex-direction: column;
+    }
 
-
-@media(max-width:500px){
     .hebergements{
         width: 100%;
         
+    }
         
-}
-.hebergements-cards .card{
-    width: 100%;
-    margin-bottom: 50px;
-    box-sizing:border-box;
-}
-.hebergements-title{
-    
-}
-}
 
-
-}
-
-@media(max-width:500px){
+    .hebergements-cards .card{
+        width: 100%;
+        margin-bottom: 50px;
+        box-sizing:border-box;
+    }
+ 
     .activity-cards{
-        display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-justify-content: space-between;
-align-items: center;
-align-content: center;
-}
-}
+            display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    }
 
-@media(max-width:500px){
     .france-activity{
         width: 100%;
-}
-}
+    }
 
-@media(max-width:500px){
     .footer{
-        display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-justify-content: space-between;
-align-items: center;
-align-content: center;
-}
-}
+            display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    }
 
-@media(max-width:500px){
     .footer{
         height: 100%;
         text-align: center;
 }
+
 }
 
 

@@ -300,7 +300,7 @@ a {
 
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    /* width: 32%; */
 }
 
 .populaires-title {
@@ -310,6 +310,7 @@ a {
 }
 
 .populaires-cards .card {
+    width: 100%;
     display: flex;
     margin-top: 33px;
 }

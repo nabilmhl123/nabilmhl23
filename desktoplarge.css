@@ -1,0 +1,29 @@
+@media screen and (min-width:1041) and (max-width:2000px) {
+    .icon2{
+        display: none;
+    }
+
+    .hebergement-and-populaires{
+        border-radius: 20px;
+        padding: 0 50px;
+        
+    }
+
+    .hebergements {
+        width: 67%;
+        margin-right: 20px;
+        border-radius: 20px;
+        padding: 0 50px;
+    }
+
+    .populaires{
+        width: 32%;
+        border-radius: 20px;
+        padding: 0 50px;
+    }
+    
+    .hebergements-and-populaires section {
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+}

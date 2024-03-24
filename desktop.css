@@ -1,0 +1,20 @@
+@media screen and (min-width:1025px) and (max-width: 1440px) {
+    /* body{
+        display: flex;
+        justify-content: center;
+        padding: 0 50px;
+    } */
+
+    .icon2{
+        display: none;
+    }
+
+    .hebergements{
+        margin-right: 30px;
+    }
+
+    .hebergements-and-populaires section {
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+}

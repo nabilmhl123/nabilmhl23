@@ -1,74 +1,57 @@
-/* @media (max-width:1024px){
-    .filtres{
-        margin: 2px;
-}
-    .filtres button{
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        /* width: 100%; */
         display: flex;
-        align-items: center;
-        margin: 10px;
-        
-}
-.filtres button i{
-    margin: 5px;
-}
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    .populaires-cards a {
+        width: 30%;
+    }
 
-    .hebergements-and-populaires{
-flex-direction: column;
-align-items: center;
-}
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
 
-.hebergements{
-    width: 100%;
-    margin-bottom: 30px;
-}
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
 
+    .activity-cards .card-title{
+        width: 70%;
+    }
 
+    .france-activity{
+        width: 24%;
+    }
 
-.hebergements-cards{
-    width: 100%;
-    margin-bottom: 40px;
-    
-}
+    .icon2{
+        display: none
+    }
 
-.hebergements-cards .card{
-    width: 100%;
-    
-}
+    /* .filtres{
+        justify-content: flex-start;
+    } */
 
-.img_container{
-    width: 100%;
-}
-
-.populaires{
-    width: 100%;
-}
-
-.populaires-cards{
-    display: flex;
-    
-}
-
-.populaires-cards .card{
-    width: 100%;
-}
-
-
-
-
-.activity-cards{
-    width: 100%;
-    height: 100%;
-    
-}
-
-.activity-cards .img_container{
-   object-fit: cover;
-    
-}
-
-.france-activity{
-    object-fit: cover;
-    
-}
-} */
+    .hebergements-and-populaires section {
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+} 

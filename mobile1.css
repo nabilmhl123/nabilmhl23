@@ -1,5 +1,5 @@
-
-@media screen and (max-width:767.98px) {
+/* 
+@media (max-width:767.98px) {
 
     body{
         width: 100%;
@@ -7,21 +7,9 @@
         align-content: center;
         align-items: center;
         margin: 0;
-        
-        /* padding: 0 50px; */
+
     }
 
-    /* .container1 img {
-        align-items: center;
-    } */
-
-    /* .container1 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-    } */
 
     h1{
         font-size: 20px;
@@ -40,7 +28,6 @@
     }
     
     .container1 img {
-        /* display: flex;  */
         align-content: center;
         align-items: center;
         width: 61.1px;
@@ -55,9 +42,6 @@
         display: flex;
         width: 100%; 
         height: 35px;
-        /* margin: 0%; */
-        /* gap: 68px;   */
-        /* padding: 0px 50px 0px 50px; */
     }
     
     .nav_link {
@@ -91,11 +75,7 @@
                 align-items: center;
                 justify-content: center;
                 width: 100%;
-                /* flex-direction: row;
-                flex-wrap: nowrap;
-                justify-content: center;
-                align-items: center;
-                align-content: center; */
+
                 margin-bottom: 20px;
     }
 
@@ -106,9 +86,7 @@
 
     .icon2{
             background-color: #0065FC;
-        /* Couleur de fond du bouton */
-        color: white;
-        /* Couleur du texte du bouton */
+        color: white;/
         padding: 10px 15px;
         cursor: pointer;
         border-radius: 12px;
@@ -153,15 +131,11 @@
 	align-content: center;
     }
 
-    .hebergements-and-populaire section{
-        /* background-color: var(--main-bg-color); */
-    }
 
     .populaires{
         width: 100%; 
         margin-bottom: 50px;
         background-color: #F2F2F2;
-        /* box-sizing: border-box; */
     }
 
     .populaires-cards{
@@ -176,7 +150,6 @@
         
 
     .hebergements-cards .card{
-        width: 100%;
         margin-bottom: 50px;
         box-sizing:border-box;
     }
@@ -215,4 +188,4 @@
 
 
     
-
+ */

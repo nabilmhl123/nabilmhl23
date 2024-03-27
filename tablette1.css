@@ -1,12 +1,8 @@
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
+/* ***** Media queries **********
+Medium devices (tablets, less/equal than 1024px) */
 
-@media screen and (min-width:768px) and (max-width: 1024px) {
-    body{
-        display: flex;
-        justify-content: center;
-        padding: 0 50px;
-    }
+@media (max-width: 1024px) {
+    
     
     .hebergements-and-populaires {
         flex-direction: column;
@@ -22,14 +18,11 @@
     }
 
     .populaires-cards {
-        /* width: 100%; */
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
 
     .populaires-cards a {
-        width: 30%;
+        /* width: 30%; */
     }
 
     .populaires-cards .card-title {
@@ -44,17 +37,23 @@
         width: 70%;
     }
 
+
     .france-activity{
-        width: 24%;
+        height: 270px;
+        border-radius: 20px;
+    }
+
+    .france-activity img{
+        width: 100%;
+        height: 200px;
+        border-radius: 20px 20px 0px 0px;
     }
 
     .icon2{
         display: none
     }
 
-    /* .filtres{
-        justify-content: flex-start;
-    } */
+    
 
     .hebergements-and-populaires section {
         background-color: #F2F2F2;

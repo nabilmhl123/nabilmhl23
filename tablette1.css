@@ -87,6 +87,12 @@ Medium devices (tablets, less/equal than 1024px) */
         border-radius: 20px 20px 0px 0px;
     }
 
+    .france-activity .card-content{
+        height: 50px;
+        border-radius: 0px 0px 20px 20px;
+        box-shadow: 2px 2px 2px 2px #F2F2F2;
+    }
+
     .icon2{
         display: none
     }

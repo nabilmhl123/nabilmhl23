@@ -1,15 +1,47 @@
 /* ***** Media queries **********
 Medium devices (tablets, less/equal than 1024px) */
 
-@media (max-width: 1024px) {
-    
-    
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .main-container {
+        width: 100%;
+        max-width: 1024px;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+
+    .filtres button{
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid #F2F2F2;
+        padding: 4px, 19px, 4px, 19px;
+        gap: 10px;
+        cursor: pointer;
+        align-items: center;
+        background-color: white;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
+        border-radius: 20px;
     }
 
     .hebergements {
         width: 100%;
+    }
+
+    .hebergements-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .hebergements-cards a {
+        width: 33%;
+        height: auto;
     }
 
     .populaires {
@@ -21,8 +53,9 @@ Medium devices (tablets, less/equal than 1024px) */
         display: flex;
     }
 
-    .populaires-cards a {
-        /* width: 30%; */
+    .populaires-cards a{
+        width: 30%;
+        margin: 10px;
     }
 
     .populaires-cards .card-title {
@@ -37,13 +70,18 @@ Medium devices (tablets, less/equal than 1024px) */
         width: 70%;
     }
 
+    .activity-cards a{
+        display: flex;
+        width: 100%;
+    }
 
-    .france-activity{
+    .france-activity {
+        width: 90%;
         height: 270px;
         border-radius: 20px;
     }
 
-    .france-activity img{
+    .france-activity img {
         width: 100%;
         height: 200px;
         border-radius: 20px 20px 0px 0px;
@@ -53,10 +91,11 @@ Medium devices (tablets, less/equal than 1024px) */
         display: none
     }
 
-    
-
     .hebergements-and-populaires section {
-        background-color: #F2F2F2;
+        background-color: var(--main-bg-color);
         border-radius: 20px;
+        background-color: #F2F2F2;
     }
+
+    
 } 
